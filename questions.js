@@ -9,7 +9,7 @@ const UNITS = [
   // ─────────────────────────────────────────────────────────
   {
     id: 0,
-    title: "Starter – Hello!",
+    title: "Starter – Welcome back!",
     mcq: [
       // Video-context
       {
@@ -76,7 +76,7 @@ const UNITS = [
   // ─────────────────────────────────────────────────────────
   {
     id: 1,
-    title: "Unit 1 – My Family",
+    title: "Unit 1 – Our new things",
     mcq: [
       // Video-context
       {
@@ -143,7 +143,7 @@ const UNITS = [
   // ─────────────────────────────────────────────────────────
   {
     id: 2,
-    title: "Unit 2 – My Things",
+    title: "Unit 2 – They're happy now!",
     mcq: [
       // Video-context
       {
@@ -210,7 +210,7 @@ const UNITS = [
   // ─────────────────────────────────────────────────────────
   {
     id: 3,
-    title: "Unit 3 – Animals",
+    title: "Unit 3 – I can ride a bike!",
     mcq: [
       // Video-context
       {
@@ -277,7 +277,7 @@ const UNITS = [
   // ─────────────────────────────────────────────────────────
   {
     id: 4,
-    title: "Unit 4 – Food",
+    title: "Unit 4 – Have you got a milkshake?",
     mcq: [
       // Video-context
       {
@@ -344,7 +344,7 @@ const UNITS = [
   // ─────────────────────────────────────────────────────────
   {
     id: 5,
-    title: "Unit 5 – My Body",
+    title: "Unit 5 – We've got English!",
     mcq: [
       // Video-context
       {
@@ -411,7 +411,7 @@ const UNITS = [
   // ─────────────────────────────────────────────────────────
   {
     id: 6,
-    title: "Unit 6 – Clothes",
+    title: "Unit 6 – Let's play after school!",
     mcq: [
       // Video-context
       {
@@ -478,7 +478,7 @@ const UNITS = [
   // ─────────────────────────────────────────────────────────
   {
     id: 7,
-    title: "Unit 7 – At School",
+    title: "Unit 7 – Let's buy presents!",
     mcq: [
       // Video-context
       {
@@ -679,7 +679,7 @@ const UNITS = [
   // ─────────────────────────────────────────────────────────
   {
     id: 10,
-    title: "Unit 10 – In Town",
+    title: "Unit 10 – It's hot today!",
     mcq: [
       // Video-context
       {
