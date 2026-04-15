@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F2 Listening Revision</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <span class="header-icon">🎧</span>
+      <div>
+        <h1>Family &amp; Friends 2</h1>
+        <p class="header-subtitle">Listening Revision — Final Exam Preparation</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== INTRO BANNER ===== -->
+  <div class="intro-banner">
+    <p>Watch each video carefully, then click <strong>Take the Quiz</strong> to test your understanding!</p>
+  </div>
+
+  <!-- ===== VIDEO GRID (populated by JS) ===== -->
+  <main class="video-grid" id="videoGrid"></main>
+
+  <!-- ===== QUIZ MODAL ===== -->
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+
+      <!-- Modal header -->
+      <div class="modal-header">
+        <h2 id="modalTitle">Quiz</h2>
+        <button class="close-btn" id="closeBtn" aria-label="Close quiz">&times;</button>
+      </div>
+
+      <!-- Quiz form (hidden when results shown) -->
+      <div id="quizForm">
+
+        <!-- Section A: Multiple Choice -->
+        <section class="quiz-section">
+          <div class="section-label">
+            <span class="section-badge">A</span>
+            <span>Listening Comprehension — Choose the correct answer</span>
+          </div>
+          <div id="mcqContainer"></div>
+        </section>
+
+        <!-- Divider -->
+        <hr class="section-divider" />
+
+        <!-- Section B: Vocabulary Matching -->
+        <section class="quiz-section">
+          <div class="section-label">
+            <span class="section-badge">B</span>
+            <span>Vocabulary Matching — Click a word, then click its meaning</span>
+          </div>
+          <div class="vocab-instructions">
+            <span class="tip-icon">💡</span>
+            Click a <strong>word</strong> on the left to select it (it turns yellow),
+            then click its correct <strong>meaning</strong> on the right to make a pair.
+          </div>
+          <div class="vocab-match-area" id="vocabContainer">
+            <div class="vocab-col" id="vocabWords"></div>
+            <div class="vocab-col" id="vocabDefs"></div>
+          </div>
+        </section>
+
+        <!-- Submit -->
+        <div class="submit-row">
+          <button class="btn btn-submit" id="submitBtn">Submit Answers ✔</button>
+          <p class="submit-note" id="submitNote"></p>
+        </div>
+
+      </div><!-- /quizForm -->
+
+      <!-- ===== RESULTS PANEL (hidden until submitted) ===== -->
+      <div id="resultsPanel" class="hidden">
+
+        <div class="score-banner">
+          <div class="score-circle" id="scoreCircle"></div>
+          <div class="score-message" id="scoreMessage"></div>
+        </div>
+
+        <!-- MCQ results -->
+        <h3 class="results-section-title">Section A – Multiple Choice</h3>
+        <div id="mcqResults"></div>
+
+        <!-- Vocab results -->
+        <h3 class="results-section-title">Section B – Vocabulary Matching</h3>
+        <div id="vocabResults"></div>
+
+        <!-- Actions -->
+        <div class="results-actions">
+          <button class="btn btn-retry" id="retryBtn">🔄 Try Again</button>
+          <button class="btn btn-close-result" id="closeResultBtn">✖ Close</button>
+        </div>
+
+      </div><!-- /resultsPanel -->
+
+    </div><!-- /modal-card -->
+  </div><!-- /modal-overlay -->
+
+  <!-- ===== SCRIPTS ===== -->
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
