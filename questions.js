@@ -13,28 +13,28 @@ const UNITS = [
     mcq: [
       // Video-context
       {
-        question: "What does the teacher say to the children at the very beginning of the video?",
-        options: ["Goodbye", "Sorry", "Hello", "Please"],
+        question: "In the video, Rosy is recording her family with a camcorder. What colour is Rosy's hair?",
+        options: ["Black", "Brown", "Blonde", "Red"],
+        answer: 1
+      },
+      {
+        question: "Rosy introduces her cousin Tim. What colour are Tim's eyes?",
+        options: ["Blue", "Brown", "Green", "Black"],
         answer: 2
       },
       {
-        question: "At the end of the video, what do the children say to the teacher when they leave?",
-        options: ["Hello", "Sorry", "Thank you", "Goodbye"],
+        question: "How old is Rosy's little brother Billy?",
+        options: ["One", "Three", "Four", "Two"],
         answer: 3
       },
       {
-        question: "In the video, a child wants a pencil and asks politely. What does she say?",
-        options: ["Thank you", "Goodbye", "Please", "Hello"],
+        question: "In the video, where does Tim look for Billy first?",
+        options: ["In the wardrobe", "Behind the door", "Under the bed", "In the garden"],
         answer: 2
       },
       {
-        question: "A boy in the video drops someone's book by accident. What does he say?",
-        options: ["Hello", "Please", "Goodbye", "Sorry"],
-        answer: 3
-      },
-      {
-        question: "After the teacher gives a child a sticker, the child says ___.",
-        options: ["Sorry", "Goodbye", "Please", "Thank you"],
+        question: "What is Billy wearing on his head when he pops up from behind the bed?",
+        options: ["A hat", "A helmet", "A scarf", "Bear ears"],
         answer: 3
       },
       // Concept
@@ -80,29 +80,29 @@ const UNITS = [
     mcq: [
       // Video-context
       {
-        question: "In the video, Rosy points to a woman and says 'This is my ___.' Who is she?",
-        options: ["Sister", "Grandmother", "Mom", "Teacher"],
-        answer: 2
-      },
-      {
-        question: "According to the video, who is Tim's sister?",
-        options: ["Suzy", "Grandma", "Mom", "Rosy"],
+        question: "In the video, the teacher shows the children their new classroom. What type of pegs are on the wall?",
+        options: ["Number pegs", "Name pegs", "Colour pegs", "Animal pegs"],
         answer: 3
       },
       {
-        question: "In the video, Tim calls his dad's dad 'my ___.' What does he say?",
-        options: ["Uncle", "Father", "Brother", "Grandfather"],
-        answer: 3
-      },
-      {
-        question: "When Grandma arrives in the video, what does Rosy say about her?",
-        options: ["'She is my teacher.'", "'She is my sister.'", "'She is my grandmother.'", "'She is my aunt.'"],
+        question: "When the teacher shows the children the new computer, what do the children say?",
+        options: ["\"Please!\"", "\"Sorry!\"", "\"Wow!\"", "\"Hello!\""],
         answer: 2
       },
       {
-        question: "In the video, how does Tim describe Rosy to his friend?",
-        options: ["'He is my brother.'", "'She is my sister.'", "'She is my mother.'", "'He is my grandfather.'"],
-        answer: 1
+        question: "The teacher asks 'Do you like our new things?' How do the children reply?",
+        options: ["They sit quietly.", "They say 'No, we don't.'", "They shake their heads.", "They raise their hands and say 'Yes, we do!'"],
+        answer: 3
+      },
+      {
+        question: "The teacher points to a pink object on Rosy's desk. What does the teacher think it is?",
+        options: ["A ruler", "A new book", "A new teddy", "A pencil"],
+        answer: 2
+      },
+      {
+        question: "What is actually inside the pink object on Rosy's desk?",
+        options: ["Books and rulers", "Toys and stickers", "Crayons and erasers", "New pencils and pens"],
+        answer: 3
       },
       // Concept
       {
@@ -147,29 +147,29 @@ const UNITS = [
     mcq: [
       // Video-context
       {
-        question: "In the video, Billy cannot find his eraser. What does he use an eraser for?",
-        options: ["To measure lines", "To colour pictures", "To rub out pencil mistakes", "To carry books"],
+        question: "In the video, Mom is pushing a stroller in the park. Who is in the stroller?",
+        options: ["Rosy's doll", "A puppy", "Twin babies", "Billy"],
         answer: 2
       },
       {
-        question: "Suzy opens her pencil case in the video. What does she take out first to write with?",
-        options: ["A ruler", "A crayon", "A schoolbag", "A pencil"],
+        question: "What do the babies do that shows something is wrong?",
+        options: ["They run away.", "They fall asleep.", "They laugh loudly.", "They cry and rub their eyes."],
         answer: 3
       },
       {
-        question: "In the video, a child asks 'Is this your ruler?' The boy replies 'No, it's ___.'",
-        options: ["my ruler", "her ruler", "his ruler", "your ruler"],
-        answer: 2
-      },
-      {
-        question: "What does the teacher in the video use to draw a straight line on the board?",
-        options: ["A pencil", "An eraser", "A crayon", "A ruler"],
+        question: "Rosy asks 'Are they hot?' and Tim asks 'Are they cold?' What is Mom's answer to both questions?",
+        options: ["Maybe.", "Yes, they are!", "I don't know.", "No, they aren't."],
         answer: 3
       },
       {
-        question: "In the video, what does Rosy use to colour her picture in bright colours?",
-        options: ["A ruler", "A pencil", "A crayon", "An eraser"],
+        question: "What food does Rosy offer the babies?",
+        options: ["Bananas", "A cheese sandwich", "Apples", "A milkshake"],
         answer: 2
+      },
+      {
+        question: "Why are the babies happy at the end of the video?",
+        options: ["They had a bath.", "They went to sleep.", "They found their toys.", "They ate apples."],
+        answer: 3
       },
       // Concept
       {
@@ -214,29 +214,29 @@ const UNITS = [
     mcq: [
       // Video-context
       {
-        question: "According to the video, what pet does Rosy have at home?",
-        options: ["A goldfish", "A parrot", "A rabbit", "A hamster"],
+        question: "At the start of the video, Tim looks at pictures of himself. Which of these CAN Tim do?",
+        options: ["Ride a bike", "Dance", "Play football", "Skateboard"],
+        answer: 3
+      },
+      {
+        question: "What can Tim NOT do at the start of the video?",
+        options: ["Skate", "Skateboard", "Ride a bike", "Swim"],
         answer: 2
       },
       {
-        question: "In the video, Tim says 'I don't like ___.' Which animal does he not like?",
-        options: ["Rabbits", "Dogs", "Hamsters", "Fish"],
+        question: "Who does Tim ask to teach him to ride a bike?",
+        options: ["Rosy", "Dad", "His teacher", "Grandpa"],
+        answer: 3
+      },
+      {
+        question: "How does Tim feel when he first gets on the bike?",
+        options: ["Excited", "Angry", "Scared", "Bored"],
         answer: 2
       },
       {
-        question: "In the video, Billy's parrot surprises everyone. What does the parrot do?",
-        options: ["It hops around", "It copies what people say", "It swims in a bowl", "It hides in its shell"],
-        answer: 1
-      },
-      {
-        question: "The tortoise in the video moves very slowly. What does it have on its back?",
-        options: ["Wings", "Long ears", "A hard shell", "A fluffy tail"],
-        answer: 2
-      },
-      {
-        question: "In the video, Suzy's goldfish lives in ___.",
-        options: ["A cage", "A garden", "A bowl of water", "A box"],
-        answer: 2
+        question: "How does Tim find out he can ride the bike?",
+        options: ["Grandpa tells him before he starts.", "He reads instructions.", "He watches a video.", "Grandpa secretly lets go and Tim keeps going."],
+        answer: 3
       },
       // Concept
       {
@@ -281,29 +281,29 @@ const UNITS = [
     mcq: [
       // Video-context
       {
-        question: "In the video, what fruit does Rosy's mom put in Rosy's lunch box?",
-        options: ["An orange", "Grapes", "A strawberry", "A banana"],
+        question: "In the video, where are Mom and Rosy sitting?",
+        options: ["At a restaurant", "In the kitchen", "In the classroom", "At a picnic table"],
         answer: 3
       },
       {
-        question: "At the dinner table in the video, Tim says 'I don't like ___.' Which food does he refuse?",
-        options: ["Bananas", "Oranges", "Grapes", "Carrots"],
-        answer: 3
-      },
-      {
-        question: "In the video, Dad offers Rosy an orange and asks 'Do you like oranges?' What does Rosy say?",
-        options: ["'No, I don't.'", "'I don't know.'", "'Yes, I do!'", "'Sorry, please.'"],
+        question: "Where is Billy hiding in the video?",
+        options: ["Under the table", "In the car", "Behind the tree", "Behind a bush"],
         answer: 2
       },
       {
-        question: "In the video, what fruit does the monkey pick up and eat?",
-        options: ["A strawberry", "Grapes", "A carrot", "A banana"],
+        question: "What food does Rosy bring to Billy behind the tree?",
+        options: ["A milkshake and juice", "Chocolate and cake", "A banana and apple", "A cheese sandwich and salad"],
         answer: 3
       },
       {
-        question: "In the video, what does Suzy bring to school as a snack?",
-        options: ["A banana", "An orange", "Grapes", "A carrot"],
+        question: "Who eats Billy's food while it is on the grass?",
+        options: ["Tim", "The babies", "Some birds", "Grandpa"],
         answer: 2
+      },
+      {
+        question: "What does Mom say when she sees the food is gone?",
+        options: ["\"Let's go home.\"", "\"Naughty Billy!\"", "\"Oh no! We're hungry!\"", "\"Don't worry. We've got more food.\""],
+        answer: 3
       },
       // Concept
       {
@@ -348,28 +348,28 @@ const UNITS = [
     mcq: [
       // Video-context
       {
-        question: "In the video, the children sing a song and touch their bodies. What do they touch first?",
-        options: ["Their knees", "Their toes", "Their shoulders", "Their elbows"],
-        answer: 2
-      },
-      {
-        question: "In the video, a character hurts their knee while playing. Where exactly is the knee?",
-        options: ["At the top of the arm", "On the face", "In the middle of the leg", "At the end of the foot"],
-        answer: 2
-      },
-      {
-        question: "The teacher asks children to bend their elbow in the video. Where do they bend?",
-        options: ["Their finger", "The middle of their arm", "The middle of their leg", "Their chin"],
+        question: "In the video, Rosy and Tim look at something on the wall at school. What is it?",
+        options: ["A map", "Their school timetable", "A picture", "A clock"],
         answer: 1
       },
       {
-        question: "In the video, Rosy shows her thumb to the camera and says it is the ___ finger on her hand.",
-        options: ["longest", "tallest", "shortest and thickest", "thinnest"],
+        question: "On which day do Rosy and Tim have PE?",
+        options: ["Monday", "Wednesday", "Thursday", "Friday"],
         answer: 2
       },
       {
-        question: "A character in the video points to the bottom of their face, below the mouth. What body part is that?",
-        options: ["Nose", "Elbow", "Knee", "Chin"],
+        question: "What does Grandma give the children at the bus stop?",
+        options: ["Their coats", "Their PE bags", "Their lunch boxes", "Their school bags"],
+        answer: 1
+      },
+      {
+        question: "What problem does Tim find when he opens his bag at school?",
+        options: ["He has the wrong shoes.", "His bag is empty.", "It is Rosy's bag with her clothes inside.", "He forgot his shoes."],
+        answer: 2
+      },
+      {
+        question: "How does Tim solve the problem of having no PE clothes?",
+        options: ["He wears his school clothes.", "He sits and watches.", "He goes home to get his bag.", "He borrows another boy's clothes."],
         answer: 3
       },
       // Concept
@@ -415,29 +415,29 @@ const UNITS = [
     mcq: [
       // Video-context
       {
-        question: "In the video, it is cold outside and Rosy puts on a short coat over her clothes. What is it called?",
-        options: ["A scarf", "Gloves", "A jacket", "A sweater"],
+        question: "In the video, where are Rosy and Alice when they make their plans to play after school?",
+        options: ["At the park", "In the classroom", "On the school bus", "At home"],
         answer: 2
       },
       {
-        question: "Tim wraps something long around his neck before going outside in the video. What is it?",
-        options: ["A jacket", "Gloves", "Boots", "A scarf"],
-        answer: 3
-      },
-      {
-        question: "In the video, Suzy puts on her boots because it is raining. What are boots?",
-        options: ["Coverings for your hands", "A long piece of cloth for your neck", "Strong shoes that cover your ankles", "A warm top you pull over your head"],
+        question: "Why can Alice not play on Monday?",
+        options: ["She goes swimming.", "She visits her grandma.", "She has a music lesson.", "She helps her mom."],
         answer: 2
       },
       {
-        question: "The teacher describes what Billy is wearing in the video. She says 'He is ___ a green sweater.'",
-        options: ["wear", "wore", "wears", "wearing"],
+        question: "What does Rosy do every Tuesday?",
+        options: ["Go swimming", "Have a music lesson", "Visit her grandma", "Help her mom"],
+        answer: 2
+      },
+      {
+        question: "Why can't Rosy play on Thursday?",
+        options: ["She helps her mom.", "She has a music lesson.", "She visits grandma.", "She goes swimming."],
         answer: 3
       },
       {
-        question: "In the video, Mom puts gloves on the children's hands. What do gloves keep warm?",
-        options: ["Your neck", "Your feet", "Your head", "Your hands"],
-        answer: 3
+        question: "How do the girls finally find a time to be together?",
+        options: ["They agree to meet on Wednesday.", "They decide to play on the weekend.", "Mom invites Alice to go swimming with them on Thursday.", "Alice skips her music lesson."],
+        answer: 2
       },
       // Concept
       {
@@ -482,28 +482,28 @@ const UNITS = [
     mcq: [
       // Video-context
       {
-        question: "In the video, what is the first lesson the children have when school starts?",
-        options: ["Art", "Music", "Science", "Math"],
+        question: "In the video, why does the family go to the toy shop?",
+        options: ["The teacher asked them to.", "They want toys for themselves.", "It is Rosy's birthday.", "It is Billy's birthday tomorrow."],
         answer: 3
       },
       {
-        question: "During the art lesson in the video, what do the children create?",
-        options: ["A science experiment", "A song", "A painting", "A number chart"],
+        question: "Tim picks up some balloons in the shop. Why does Mom say no?",
+        options: ["They already have balloons.", "They are too expensive.", "Balloons are not allowed.", "Billy is scared of balloons."],
+        answer: 3
+      },
+      {
+        question: "What present does the family decide to buy for Billy?",
+        options: ["A car", "A train", "Chocolate", "A teddy bear"],
         answer: 2
       },
       {
-        question: "In the video, the class goes to the library. What do the children do there?",
-        options: ["Eat lunch", "Play football", "Borrow and read books", "Sing songs"],
-        answer: 2
+        question: "What time is it when Rosy wakes Mom and Dad in the morning?",
+        options: ["Eight o'clock", "Seven o'clock", "Six o'clock", "Five o'clock"],
+        answer: 3
       },
       {
-        question: "Rosy's favourite lesson in the video is music. What does she do during music class?",
-        options: ["Draw pictures", "Count numbers", "Sing and play instruments", "Run in the gym"],
-        answer: 2
-      },
-      {
-        question: "In the video, what time does the school day begin?",
-        options: ["At 6 o'clock", "At 10 o'clock", "At night", "At 8 o'clock in the morning"],
+        question: "Where does the family find Billy at five o'clock in the morning?",
+        options: ["In the kitchen eating breakfast", "Still asleep in his bed", "Playing in the garden", "In the living room opening his presents"],
         answer: 3
       },
       // Concept
@@ -683,29 +683,29 @@ const UNITS = [
     mcq: [
       // Video-context
       {
-        question: "In the video, Rosy feels sick so Mom takes her somewhere. Where do they go?",
-        options: ["The library", "The park", "The bank", "The hospital"],
+        question: "In the video, where does the family plan to walk to?",
+        options: ["The park", "The library", "The beach", "The shops"],
         answer: 3
       },
       {
-        question: "The family in the video needs to buy food. Which place do they go to?",
-        options: ["The post office", "The hospital", "The supermarket", "The bank"],
-        answer: 2
-      },
-      {
-        question: "In the video, Tim wants to send a letter to his grandma. Where does he go?",
-        options: ["The supermarket", "The library", "The post office", "The park"],
-        answer: 2
-      },
-      {
-        question: "At the end of the video, the children play outside on the swings. Where are they?",
-        options: ["The hospital", "The bank", "The library", "The park"],
+        question: "Tim says the weather is sunny. What does Grandpa tell the children to put on before going out?",
+        options: ["Their coats", "Their scarves", "Their boots", "Their sun hats"],
         answer: 3
       },
       {
-        question: "In the video, someone asks for directions and is told 'Go ___ then turn right.'",
-        options: ["left", "back", "straight", "around"],
+        question: "What happens to Tim's hat when the wind picks up outside?",
+        options: ["He gives it to Billy.", "He leaves it at home.", "The wind blows it off.", "It falls in a puddle."],
         answer: 2
+      },
+      {
+        question: "Why does the family rush home before reaching the shops?",
+        options: ["They forgot their shopping list.", "It gets too hot.", "It starts snowing.", "It starts raining and they have no umbrellas."],
+        answer: 3
+      },
+      {
+        question: "What problem do they have when they reach the front door?",
+        options: ["Tim loses the key.", "The door is broken.", "Mom is not home.", "Grandpa hasn't got the key."],
+        answer: 3
       },
       // Concept
       {
